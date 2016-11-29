@@ -1,0 +1,11 @@
+entry state,s01,,,,,
+exit state,s01,,,,,
+default output,o0,,,,,
+,,,,,,
+              , next state, ,,, output,
+ current state, ea,eb,,   ,ea,eb
+s00,s00,s03,,   ,o0,o1
+s01,s00,s04,,   ,o0,o1
+s02,s04,s00,,   ,o0,o1
+s03,s02,s03,,   ,o1,o1
+s04,s01,s04,,,o1,o1

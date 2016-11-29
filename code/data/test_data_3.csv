@@ -1,0 +1,10 @@
+entry state,s07,,,,,,
+exit state,s40,,,,,,
+default output,1,,,,,,
+,,,,,,,
+              , next state, ,,, output,,
+ current state,e64,e80,e86,   ,e64,e80,e86
+s03,s24,s03,s03,   ,o0,o1,o0
+s07,s24,s03,s24,   ,o0,o1,o1
+s24,s24,s40,s24,,o0,o1,o0
+s40,s40,s40,s40,,o0,o0,o1
